@@ -1,0 +1,12 @@
+#O código retorna "par" se o número digitado pelo usuário for par e "ímpar" se for ímpar.
+#The code returns "even" if the user inputs an even number and "odd" if he inputs an odd number.
+
+x <- readLines('stdin')
+num <- as.integer(x[1])
+
+if (num %% 2 == 0) {
+    print("even")
+} else {
+    print("odd")
+}
+
