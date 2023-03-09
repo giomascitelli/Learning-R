@@ -1,0 +1,10 @@
+# O código retorna todos os números em uma range de 1 até 50 exceto os números 10 e 20.
+# The code outputs all the numbers in a 1 to 50 range except the numbers 10 and 20.
+
+for(x in 1:50) {
+    if(x==10 | x==20) {
+    next
+}
+print(x)
+}
+
