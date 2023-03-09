@@ -1,0 +1,15 @@
+# O código define uma função que pega o valor que o usuário entrega e devolve o mesmo valor de estrelas utilizando o símbolo de asterísco.
+# The code defines a function that takes a number X as its parameter and outputs X stars using the asterisk symbol.
+
+estrelas <- function(x){
+i <- 0
+while (i < x) {
+        print("*")
+        i <- i + 1
+        }
+}
+
+x <- readLines('stdin')
+x <- as.integer(x[1])
+
+estrelas(x)
