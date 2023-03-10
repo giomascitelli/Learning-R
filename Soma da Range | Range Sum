@@ -1,5 +1,6 @@
 # Exercício de definir uma função que pega dois parâmetros dados pelo usuário e retorna a soma de todos os números entre eles.
 # Exercise that defines a function that takes two parameters and returns the sum of all numbers between the two parameters.
+# Exercice qui définit une fonction prenant deux paramètres fournis par l'utilisateur et renvoyant la somme de tous les nombres entre ces deux paramètres.
 
 rangeSum <- function(x, y){
     res <- 0
