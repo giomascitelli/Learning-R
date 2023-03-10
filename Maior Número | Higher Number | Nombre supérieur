@@ -1,0 +1,11 @@
+# Exercício em que o código recebe três valores e o código devolve o maior valor entre os três digitados pelo usuário.
+# This is an exercise in which the code takes three numbers as input and outputs the maximum of the three inputs.
+# Il s'agit d'un exercice dans lequel le code reçoit trois valeurs et renvoie la valeur la plus élevée parmi les trois saisies par l'utilisateur.
+
+input <- readLines('stdin')
+x <- as.integer(input[1])
+y <- as.integer(input[2])
+z <- as.integer(input[3])
+
+print(max(x, y, z))
+
