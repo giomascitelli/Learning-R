@@ -13,3 +13,4 @@ x <- readLines('stdin')
 x <- as.integer(x[1])
 
 estrelas(x)
+
