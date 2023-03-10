@@ -1,0 +1,12 @@
+# O código utiliza um loop para retornar a soma de todos os números múltiplos de 3 em uma range de 1 até 1000.
+# The code uses a loop to calculate the sum of all numbers that are multiple of 3 in the range of 1 to 1000.
+# Le code utilise une boucle pour calculer la somme de tous les nombres multiples de 3 dans une plage de 1 à 1000.
+
+sum <- 0
+for(x in 1:1000){
+    if (x %% 3 == 0) {
+        sum = sum + x
+    }
+}
+print(sum)
+
