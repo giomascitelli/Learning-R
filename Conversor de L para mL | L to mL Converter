@@ -1,0 +1,10 @@
+# Exercício para criar um código que converte o valor que o usuário digitar em Litro para mL e mostrar o resultado.
+# Exercise to create a code that takes an Liter amount as input, converts it to mL and outputs the result.
+
+input <- readLines('stdin')
+
+x <- input[1]
+x <- as.integer(x)
+
+print(x*1000)
+
