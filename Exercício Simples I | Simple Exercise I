@@ -1,0 +1,14 @@
+# Exercício de fazer um código que soma os valores dentro de uma range e retorna eles.
+# Exercise to make a code that sums the values in the given range and returns it.
+
+calc <- function(a,b) {
+    res <- 0
+    for (x in a:b) {
+        res <- res + x
+        }
+
+    return (res)
+
+    }
+
+print(calc(4,7))
