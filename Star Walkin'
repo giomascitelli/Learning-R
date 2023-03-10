@@ -1,5 +1,6 @@
 # O código define uma função que pega o valor que o usuário entrega e devolve o mesmo valor de estrelas utilizando o símbolo de asterísco.
 # The code defines a function that takes a number X as its parameter and outputs X stars using the asterisk symbol.
+# Le code définit une fonction qui prend un nombre X en paramètre et affiche X étoiles en utilisant le symbole d'astérisque.
 
 estrelas <- function(x){
 i <- 0
