@@ -1,5 +1,6 @@
-#O código utiliza switch para quando receber uma UF retornar o nome do estado.
-#The code uses switch to return the state's full name when the user inputs a state code.
+# O código utiliza switch para quando receber uma UF retornar o nome do estado.
+# The code uses switch to return the state's full name when the user inputs a state code.
+# Le code utilise switch pour retourner le nom complet de l'État lorsque l'utilisateur saisit un code d'État.
 
 estado <- readLines('stdin')
 x <- estado[1]
