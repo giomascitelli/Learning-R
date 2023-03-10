@@ -1,0 +1,23 @@
+# Exercísio de fazer um código que cria um loop em uma range 1 até x (5), mas "quebra" no número 3, devolvendo 2 como resultado.
+# Exercise to make a code that makes a loop in a 1 to x (5) range, but "breaks" at number 3, resulting in 2 as the output.
+
+sum <- function(x)
+{
+	res <- 1
+		
+		for(val in 1:x)
+		{
+
+    			if(val==3)
+			{
+    			break
+			}
+
+		res <- res * val
+		}
+
+	return(res)
+}
+
+sum(5)
+
