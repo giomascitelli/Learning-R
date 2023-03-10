@@ -1,0 +1,18 @@
+# Exercício de definir uma função que pega dois parâmetros dados pelo usuário e retorna a soma de todos os números entre eles.
+# Exercise that defines a function that takes two parameters and returns the sum of all numbers between the two parameters.
+
+rangeSum <- function(x, y){
+    res <- 0
+    for (i in x:y){
+        res <- res + i 
+    }
+    return(res)
+}
+
+input <- readLines('stdin')
+x <- as.integer(input[1])
+y <- as.integer(input[2])
+
+result <- rangeSum(x, y)
+print(result)
+
