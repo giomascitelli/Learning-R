@@ -1,5 +1,6 @@
 # Exercício de fazer um código que soma os valores dentro de uma range e retorna eles.
-# Exercise to make a code that sums the values in the given range and returns it.
+# This is an exercise in which I made a code that sums the values in the given range and returns it.
+# Exercice pour créer un code qui additionne les valeurs à l'intérieur d'une plage et les renvoie.
 
 calc <- function(a,b) {
     res <- 0
